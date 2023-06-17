@@ -915,6 +915,7 @@ img {
   outline: transparent;
   resize: none;
   padding: 8px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea::placeholder {
@@ -924,7 +925,6 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
