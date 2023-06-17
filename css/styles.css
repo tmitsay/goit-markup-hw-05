@@ -776,9 +776,9 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
-  padding: 72px 24px 24px 24px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -941,11 +941,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-icon);
-  display: flex;
   align-items: center;
 }
 
-.check-text span {
+.text-check {
   margin-right: 8px;
   width: 16px;
   height: 16px;
